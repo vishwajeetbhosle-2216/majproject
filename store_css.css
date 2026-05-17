@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("backgr.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.name h3 {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.name {
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 5px;    color: white;
+    height: 300px;
+}
+
+.name h2 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.name ul {
+    position: relative;
+    left: 22px;
+    line-height: 28px;
+    top: 10px;
+}
+
+.name img {
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 150px;
+
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    /* background-color: rgba(137, 43, 226, 0.41); */
+    color:black;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 35px;
+    background-color:rgb(132, 121, 121);
+
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(247, 186, 186);
+    margin-left: 600px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+
+.map-link {
+    width: 100%;
+    height: 250px;
+}
+
+footer {
+    width: 110%;
+    height: 100px;
+    background-color: aliceblue;
+    align-content: center;
+    position: absolute;
+    bottom: 0;
+
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+footer span {
+    font-size: 15px;
+    font-weight: bold;
+}
